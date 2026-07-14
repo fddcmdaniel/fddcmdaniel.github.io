@@ -1,0 +1,43 @@
+.contactLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.875rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.65rem 1.25rem;
+  border: 1px solid var(--slate-700);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--slate-200);
+  transition:
+    border-color 160ms ease,
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+.btn:hover {
+  border-color: var(--cyan-500);
+  color: var(--cyan-400);
+  transform: translateY(-1px);
+}
+
+.glyph {
+  color: var(--slate-500);
+  transition: color 160ms ease;
+}
+
+.btn:hover .glyph {
+  color: var(--cyan-500);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+    transition: none;
+  }
+}

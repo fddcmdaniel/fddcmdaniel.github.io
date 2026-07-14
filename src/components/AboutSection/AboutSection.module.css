@@ -1,0 +1,21 @@
+.bio p {
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.85;
+  color: var(--slate-200);
+  max-width: 40rem;
+}
+
+.bio p + p {
+  margin-top: 1.25rem;
+}
+
+.bio strong {
+  font-weight: 600;
+  color: #fff;
+}
+
+.accent {
+  color: var(--cyan-400);
+  font-weight: 500;
+}

@@ -1,0 +1,13 @@
+.cmdLine {
+  color: var(--slate-400);
+  margin-bottom: 1.75rem;
+}
+
+.promptSign {
+  color: var(--cyan-500);
+  margin-right: 0.6em;
+}
+
+.cmd {
+  color: var(--slate-200);
+}
