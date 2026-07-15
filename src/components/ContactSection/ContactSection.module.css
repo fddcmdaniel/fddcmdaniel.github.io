@@ -22,8 +22,8 @@
 }
 
 .btn:hover {
-  border-color: var(--cyan-500);
-  color: var(--cyan-400);
+  border-color: var(--accent-500);
+  color: var(--accent-400);
   transform: translateY(-1px);
 }
 
@@ -33,7 +33,7 @@
 }
 
 .btn:hover .glyph {
-  color: var(--cyan-500);
+  color: var(--accent-500);
 }
 
 @media (prefers-reduced-motion: reduce) {

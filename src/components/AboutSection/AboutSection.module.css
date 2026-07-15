@@ -16,6 +16,6 @@
 }
 
 .accent {
-  color: var(--cyan-400);
+  color: var(--accent-400);
   font-weight: 500;
 }

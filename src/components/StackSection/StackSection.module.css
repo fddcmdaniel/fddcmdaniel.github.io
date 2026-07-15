@@ -18,7 +18,7 @@
 }
 
 .treeDir {
-  color: var(--cyan-500);
+  color: var(--accent-500);
   font-weight: 500;
   min-width: 10.5rem;
   line-height: 1.9;
