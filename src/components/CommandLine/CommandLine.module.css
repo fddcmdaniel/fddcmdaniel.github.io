@@ -1,5 +1,5 @@
 .cmdLine {
-  color: var(--slate-400);
+  color: var(--color-text-muted);
   margin-bottom: 1.75rem;
 }
 
@@ -9,5 +9,5 @@
 }
 
 .cmd {
-  color: var(--slate-200);
+  color: var(--color-text);
 }

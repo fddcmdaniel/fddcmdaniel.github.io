@@ -1,3 +1,4 @@
+import { ThemeToggle } from './components/ThemeToggle/ThemeToggle';
 import { TerminalHeader } from './components/TerminalHeader/TerminalHeader';
 import { StackSection } from './components/StackSection/StackSection';
 import { AboutSection } from './components/AboutSection/AboutSection';
@@ -7,6 +8,7 @@ import { Footer } from './components/Footer/Footer';
 function App() {
   return (
     <>
+      <ThemeToggle />
       <TerminalHeader />
       <main>
         <StackSection />
