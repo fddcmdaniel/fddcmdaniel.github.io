@@ -6,18 +6,31 @@ export interface StackCategory {
 export const STACK: StackCategory[] = [
   {
     dir: 'frontend/',
-    skills: ['React', 'Vite', 'Zustand', 'TanStack Query', 'React Router', 'Next.js 16'],
+    skills: [
+      'React',
+      'Vite',
+      'Next.js 16',
+      'Zustand',
+      'TanStack Query',
+      'TypeScript',
+      'HTML5',
+      'CSS3',
+    ],
   },
   {
-    dir: 'core/',
-    skills: ['TypeScript', 'HTML5', 'CSS3'],
+    dir: 'frontend_legacy/',
+    skills: ['React Class Components', 'Angular', 'Redux', 'Webpack'],
   },
   {
-    dir: 'backend/',
-    skills: ['Node.js'],
+    dir: 'ai_backend/',
+    skills: ['Python', 'AWS Bedrock', 'LangGraph', 'LangChain', 'Node.js', 'Java'],
   },
   {
-    dir: 'ai_engineering/',
-    skills: ['LangChain', 'LangGraph', 'AWS Bedrock'],
+    dir: 'quality/',
+    skills: ['Playwright', 'Cypress', 'WDIO', 'MSW', 'Vitest', 'React Testing Library', 'Enzyme'],
+  },
+  {
+    dir: 'infra/',
+    skills: ['AWS', 'ArgoCD', 'Terraform'],
   },
 ];

@@ -5,9 +5,8 @@ export interface ContactLink {
   download?: boolean;
 }
 
-// Replace the "#" placeholders below with real URLs.
 export const CONTACT_LINKS: ContactLink[] = [
-  { label: 'LinkedIn', href: '#', glyph: '↗' },
-  { label: 'GitHub', href: '#', glyph: '↗' },
-  { label: 'Download CV', href: '#', glyph: '↓', download: true },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/filipe-moreira-3856a81a5/', glyph: '↗' },
+  { label: 'GitHub', href: 'https://github.com/fddcmdaniel', glyph: '↗' },
+  { label: 'Download CV', href: '/Filipe_Moreira_Resume.pdf', glyph: '↓', download: true },
 ];
