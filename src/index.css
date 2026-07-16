@@ -9,6 +9,7 @@
   --color-heading: #ffffff;
   --accent-500: #4f8a72;
   --accent-400: #74ab8f;
+  --color-avatar-stroke: var(--color-heading);
 
   --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
   --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
@@ -25,6 +26,7 @@
   --color-text-muted: #475569;
   --color-text: #0f172a;
   --color-heading: #000000;
+  --color-avatar-stroke: var(--color-text-dim);
 }
 
 * {
