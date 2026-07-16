@@ -18,11 +18,7 @@ export const STACK: StackCategory[] = [
     ],
   },
   {
-    dir: 'frontend_legacy/',
-    skills: ['React Class Components', 'Angular', 'Redux', 'Webpack'],
-  },
-  {
-    dir: 'ai_backend/',
+    dir: 'ai_engineering/',
     skills: ['Python', 'AWS Bedrock', 'LangGraph', 'LangChain', 'Node.js', 'Java'],
   },
   {
@@ -33,4 +29,12 @@ export const STACK: StackCategory[] = [
     dir: 'infra/',
     skills: ['AWS', 'ArgoCD', 'Terraform'],
   },
+  {
+    dir: 'ides/',
+    skills: ['VSCode', 'Cursor', 'OpenCode'],
+  },
+  {
+    dir: 'legacy/',
+    skills: ['React Class Components', 'Angular', 'Redux', 'Webpack'],
+  }
 ];

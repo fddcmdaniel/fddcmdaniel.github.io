@@ -20,9 +20,9 @@ export function AboutSection() {
             My focus increasingly sits at the intersection of{' '}
             <span className={styles.accent}>AI and Frontend</span> — I designed and shipped an
             autonomous, end-to-end AI-powered conversational agent (AWS Bedrock, LangGraph,
-            Python) that is now part of core internal tooling accelerating trader workflows. I
-            also care about <strong>engineering excellence</strong>: I built a shared internal
-            utility library and helped standardize our E2E testing around Playwright.
+            Python) that is now part of core internal tooling, and architected a full-cycle
+            AI-driven SDLC flow spanning automated requirement generation through parallel
+            AI development and testing with human-in-the-loop validation.
           </p>
         </div>
       </Container>
