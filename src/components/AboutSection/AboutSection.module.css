@@ -2,7 +2,7 @@
   font-family: var(--font-sans);
   font-size: 1.0625rem;
   line-height: 1.85;
-  color: var(--slate-200);
+  color: var(--color-text);
   max-width: 40rem;
 }
 
@@ -12,10 +12,10 @@
 
 .bio strong {
   font-weight: 600;
-  color: #fff;
+  color: var(--color-heading);
 }
 
 .accent {
-  color: var(--cyan-400);
+  color: var(--accent-400);
   font-weight: 500;
 }

@@ -1,9 +1,9 @@
 .footer {
   margin-top: 7rem;
   padding: 2.25rem 0 3rem;
-  border-top: 1px solid var(--slate-800);
+  border-top: 1px solid var(--color-border);
   font-size: 0.8125rem;
-  color: var(--slate-500);
+  color: var(--color-text-dim);
 }
 
 .row {

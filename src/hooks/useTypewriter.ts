@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export interface TerminalStep {
   cmd: string;
@@ -46,11 +46,10 @@ export function useTypewriter(script: TerminalStep[]) {
   const [outText, setOutText] = useState('');
   const [showCursorOnCmd, setShowCursorOnCmd] = useState(true);
   const [isFinal, setIsFinal] = useState(false);
-  const cancelledRef = useRef(false);
 
   useEffect(() => {
-    cancelledRef.current = false;
-    const isCancelled = () => cancelledRef.current;
+    let cancelled = false;
+    const isCancelled = () => cancelled;
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const lastStep = script[script.length - 1];
 
@@ -90,7 +89,7 @@ export function useTypewriter(script: TerminalStep[]) {
     run();
 
     return () => {
-      cancelledRef.current = true;
+      cancelled = true;
     };
   }, [script]);
 

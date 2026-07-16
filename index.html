@@ -2,6 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      // Set the theme before first paint so returning light-theme visitors
+      // don't see a flash of the default dark theme.
+      if (localStorage.getItem('theme') === 'light') {
+        document.documentElement.dataset.theme = 'light';
+      }
+      // Suppress the theme-toggle transition during the initial page load —
+      // otherwise the brief unstyled flash before the stylesheet applies
+      // gets animated instead of snapping instantly. Re-enabled once the
+      // page has fully settled, so real toggle clicks still animate.
+      document.documentElement.classList.add('theme-init');
+      window.addEventListener('load', function () {
+        requestAnimationFrame(function () {
+          document.documentElement.classList.remove('theme-init');
+        });
+      });
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Filipe — Software Engineer</title>
