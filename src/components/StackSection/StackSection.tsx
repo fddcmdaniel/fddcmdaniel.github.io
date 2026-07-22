@@ -8,7 +8,7 @@ export function StackSection() {
   return (
     <Section id="stack" ariaLabel="Technology stack">
       <Container>
-        <CommandLine command="ls ./stack" />
+        <CommandLine command="ls ./skills" />
         <div className={styles.tree}>
           {STACK.map((category, index) => (
             <div className={styles.treeRow} key={category.dir}>
