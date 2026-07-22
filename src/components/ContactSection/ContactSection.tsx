@@ -8,7 +8,7 @@ export function ContactSection() {
   return (
     <Section id="contact" ariaLabel="Contact">
       <Container>
-        <CommandLine command="cat contact.txt" />
+        <CommandLine command="cat contact.md" />
         <div className={styles.contactLinks}>
           {CONTACT_LINKS.map((link) => (
             <a
